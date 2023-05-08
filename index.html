@@ -94,10 +94,10 @@
                 baraja[j] = k;
             }
 
-            document.getElementById("img").src ="ingles/"+ baraja[cont] + "ing.jpeg";
+            document.getElementById("img").src =baraja[cont] + "ing.jpeg";
             document.getElementById("img").style.display = "block";
 
-            const audio = new Audio ("ingles/"+ baraja[cont] + "ing.aac");
+            const audio = new Audio (baraja[cont] + "ing.aac");
             audio.play();
             }
 
@@ -122,9 +122,9 @@
                     cont=cont+1;
                 }
 
-                document.getElementById("img").src ="ingles/"+ baraja[cont] + "ing.jpeg";
+                document.getElementById("img").src = baraja[cont] + "ing.jpeg";
 
-                const audio = new Audio ("ingles/"+ baraja[cont] + "ing.aac");
+                const audio = new Audio ( baraja[cont] + "ing.aac");
                 audio.play();
             }
 
@@ -149,9 +149,9 @@
                 cont= cont-1;
             }
             
-            document.getElementById("img").src ="ingles/"+ baraja[cont] + "ing.jpeg";
+            document.getElementById("img").src = baraja[cont] + "ing.jpeg";
 
-            const audio = new Audio ("ingles/"+ baraja[cont] + "ing.aac");
+            const audio = new Audio ( baraja[cont] + "ing.aac");
             audio.play();
             }
      
